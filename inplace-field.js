@@ -1,6 +1,6 @@
 import Ember from "ember";
 
-export default Ember.InplaceField = Ember.View.extend({
+export default Ember.View.extend({
 	tagName: 'div',
 	classNames: ['inplace_field'],
 	classNameBindings: ['isEmpty:inplace_empty'],
@@ -30,8 +30,12 @@ export default Ember.InplaceField = Ember.View.extend({
 	}),
 
 	focusOut: function() {
-		this.get('controller').get('store').commit();
-		return this.set('isEditing', false);
+		var self = this;
+		this.get('controller').get('model').save().then(function() {
+			return self.set('isEditing', false);
+		}).catch(function(err) {
+			console.log(err);
+		});
 	},
 
 	click: function() {

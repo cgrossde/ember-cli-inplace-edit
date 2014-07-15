@@ -1,6 +1,8 @@
 import Ember from "ember";
+import inplaceFieldView from './inplace-field';
+import focusSupport from './focus-support';
 
-export default Ember.InplaceTextField = Ember.InplaceField.extend({
+export default inplaceFieldView.extend({
 	type: 'text',
-	inputField: Ember.TextField.extend(Ember.FocusSupport)
+	inputField: Ember.TextField.extend(focusSupport)
 });

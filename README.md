@@ -1,18 +1,17 @@
 # Ember.js addon: Inplace edit
 
-ember-inplace-edit is a small addon to add inplace editing capabilities to you views.
+ember-inplace-edit is a small addon to add inplace editing capabilities to you views. This is a qick adaption to ember-cli.
 
 ## Installation
 
-Download `inplace_field_view.js.coffee` and require it in your project. This file contains a couple of Ember view which 
-may be serperated in later version.
+Download the JS-Files and place them in your view-folder, DONE :)
 
 ## Usage
 
 **TextField**
 
     <div class="row description">
-      {{view App.InplaceTextField contentBinding="title"}}
+      {{view "inplace-text-field" contentBinding="title"}}
     </div>
 
 `title` is an attribute in your currently used scope, which is usally a model.
@@ -20,7 +19,7 @@ may be serperated in later version.
 **TextArea**
 
     <div class="row description">
-      {{view App.InplaceTextArea contentBinding="title"}}
+      {{view "inplace-text-area" contentBinding="title"}}
     </div>
 
 `title` is an attribute in your currently used scope, which is usally a model.
@@ -33,13 +32,13 @@ field or textarea for editing. After a field is loosing focus the changes will b
 If a field content is empty and not in editing mode, a default text will be shown. You can customize this text by setting a value for attribute `emptyValue`
 
     <div class="row description">
-      {{view App.InplaceTextArea contentBinding="title" emptyValue="click here to add some text"}}
+      {{view "inplace-text-area" contentBinding="title" emptyValue="click here to add some text"}}
     </div>
 
 You may need to render the text with some customization (e.g. rendering with markdown helper). For these cases just pass a block to a view and make sure you are using a hash (#)
 
     <div class="row description">
-      {{#view App.InplaceTextArea contentBinding="title"}}
+      {{#view "inplace-text-area" contentBinding="title"}}
         Render this custom text if not editing and not empty
         {{markdown title}}
       {{/view}}
@@ -47,8 +46,7 @@ You may need to render the text with some customization (e.g. rendering with mar
 
 ## Todos
 
-1. make namespace configurable
-2. add option to disable store.commit?!?!
+1. Find a way to integrate better into ember-cli
 
 ## Contributing
 

@@ -1,0 +1,14 @@
+{
+  "name": "ember-inplace-edit",
+  "version": "0.2.1",
+  "authors": [
+    "Christoph Groß"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+  ],
+  "dependencies": {
+    "ember": "^1.3.0"
+  }
+}

@@ -2,6 +2,7 @@
   "name": "ember-inplace-edit",
   "version": "0.2.1",
   "description": "Inplace editing of input fields",
+  "repository": "https://github.com/cgrossde/ember-inplace-edit",
   "keywords": [
     "ember-addon"
   ],

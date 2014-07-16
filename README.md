@@ -4,7 +4,7 @@ ember-inplace-edit is a small addon to add inplace editing capabilities to you v
 
 ## Installation
 
-Download the JS-Files and place them in your view-folder, DONE :)
+`npm install ember-inplace-edit`
 
 ## Usage
 
@@ -43,10 +43,6 @@ You may need to render the text with some customization (e.g. rendering with mar
         {{markdown title}}
       {{/view}}
     </div>
-
-## Todos
-
-1. Find a way to integrate better into ember-cli
 
 ## Contributing
 

@@ -1,0 +1,21 @@
+{
+  "name": "ember-inplace-edit",
+  "version": "0.2.1",
+  "description": "Inplace editing of input fields",
+  "keywords": [
+    "ember-addon"
+  ],
+  "ember-addon-main": "ember-inplace-edit.js",
+  "authors": [
+    "Mike Szörnyi",
+    "Christoph Groß"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "broccoli": ">=0.2.0",
+    "broccoli-dist-es6-module": "~0.2.0",
+    "requirejs": "~2.1.11",
+    "bower": "^1.2.8",
+    "broccoli-cli": "0.0.1"
+  }
+}

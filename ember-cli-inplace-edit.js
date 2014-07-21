@@ -16,7 +16,7 @@ function unwatchedTree(dir) {
 }
 
 EmberCLIInlineEdit.prototype.treeFor = function treeFor(name) {
-  var treePath =  path.join('node_modules', 'ember-inplace-edit', name + '-addon');
+  var treePath =  path.join('node_modules', 'ember-cli-inplace-edit', name + '-addon');
 
   if (fs.existsSync(treePath)) {
     return unwatchedTree(treePath);

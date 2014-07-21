@@ -1,12 +1,12 @@
 {
-  "name": "ember-inplace-edit",
-  "version": "0.2.2",
+  "name": "ember-cli-inplace-edit",
+  "version": "0.2.3",
   "description": "Inplace editing of input fields",
-  "repository": "https://github.com/cgrossde/ember-inplace-edit",
+  "repository": "https://github.com/cgrossde/ember-cli-inplace-edit",
   "keywords": [
     "ember-addon"
   ],
-  "ember-addon-main": "ember-inplace-edit.js",
+  "ember-addon-main": "ember-cli-inplace-edit.js",
   "authors": [
     "Mike Szörnyi",
     "Christoph Groß"

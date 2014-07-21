@@ -1,6 +1,6 @@
 {
-  "name": "ember-inplace-edit",
-  "version": "0.2.2",
+  "name": "ember-cli-inplace-edit",
+  "version": "0.2.3",
   "authors": [
     "Mike Szörnyi",
     "Christoph Groß"

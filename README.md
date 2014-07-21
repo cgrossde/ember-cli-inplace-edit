@@ -1,10 +1,10 @@
 # Ember.js addon: Inplace edit
 
-ember-inplace-edit is a small addon to add inplace editing capabilities to your views. This is a fork and credits go to **Mike Szörnyi** for the [original implementation](https://github.com/mszoernyi/ember-inplace-edit). I just adapted it to an ember-cli addon which can be installed using npm.
+ember-cli-inplace-edit is a small addon to add inplace editing capabilities to your views. This is a fork and credits go to **Mike Szörnyi** for the [original implementation](https://github.com/mszoernyi/ember-inplace-edit). I just adapted it to an ember-cli addon which can be installed using npm.
 
 ## Installation
 
-`npm install ember-inplace-edit`
+`npm install ember-cli-inplace-edit`
 
 ## Usage
 
